@@ -1,0 +1,48 @@
+.news-row {
+    margin: 3% 0;
+    color: white;
+    
+}
+.header {
+    min-height: 250px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    border: 1px silver solid;
+    padding: 20px;
+  
+}
+.header p, small {
+    cursor: pointer;
+}
+.news-title {
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+.poster {
+    max-height: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.small-poster {
+    max-height: 160px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.poster:hover  {
+    transform: scale(1.1);
+}
+.small-poster:hover {
+    transform: scale(1.4);
+}
+.nfo {
+    width: 13px;
+    height: 17px;
+}

@@ -1,0 +1,166 @@
+/* *,*:before, *:after {
+    box-sizing: border-box;
+
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: grid;
+    font-size: 0.9rem; 
+}
+main {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+    line-height: 3.8;
+    font-size: 80px;
+    font-weight: 500;
+
+} */
+.footer {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    display: grid;
+    font-size: 0.7rem; 
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #111;
+    background-color: white;
+ 
+}
+.footer > *{
+    flex: 1 100%;
+}
+.footer-logo {
+    left: 20px;
+    width: 100px;
+}
+.footer-left {
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+}
+.footer ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.footer li {
+    line-height: 2rem;
+}
+.footer a {
+    text-decoration:  none;
+
+}
+.footer-right {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-flow: row wrap;
+    font-weight: bold;
+    margin-left: 15%;
+}
+.footer-right > * {
+    flex: 1 50%;
+    margin-right: 1.25rem;
+}
+.box a {
+    color : black;  
+}
+.footer-bottom {
+    text-align : center;
+    color: blackS;
+    padding-top: 50px;
+
+}
+.footer p {
+    padding-right: 20%;
+    color: white;
+}
+.socials  {
+    display: inline-block;
+}
+.socials a i{
+    color: black !important ;
+    padding: 10px 12px;
+    font-size: 1rem;
+}
+.copyright {
+    display: inline-block;
+    position: absolute;
+    left: 17%;
+}
+.icons {
+    display: inline-block;
+    position: absolute;
+    left: 36%;
+}
+.footer-dev-name {
+    margin-left: 24%;
+}
+.footer-dev-name a{
+    color: #111
+}
+.footer-dev-name a:hover{
+    color: rgb(0, 0, 0)
+}
+@media screen and (min-width: 600px){
+
+        .footer-right > *{
+            flex: 1;
+
+        }
+        .footer-left {
+            flex: 1 0px;
+
+        }
+        .footer-left {
+            flex: 2 0px;
+            
+        }
+ 
+}
+@media (max-width: 600px) {
+    .box {
+        margin-bottom: 3%;
+    }
+    ul.box {
+        padding: 4%  ;
+        border: rgb(230, 174, 174) 1px solid;
+        
+    }
+    .footer {
+        padding: 15px;
+    }
+    main {
+        font-size: 55px;
+        
+    }
+    .copyright {
+        display: block;
+
+    }
+    .icons {
+        display: block;
+        left: 55%;
+    }
+    .footer-logo{
+        display: none;
+        
+    }
+    .footer-bottom{
+        padding-bottom: 30px;
+    }
+}
