@@ -1,3 +1,5 @@
+![NETFLIX](https://ajmal-nasumudeen-web.herokuapp.com/assets/img/projects/Netflix-clone-01.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
